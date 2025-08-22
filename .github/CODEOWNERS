@@ -1,0 +1,43 @@
+# CODEOWNERS file for calendar-frontend-973
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-release @Armor-test/dept-data @Armor-test/dept-notifications
+
+# Directory ownership
+/pkg/ @Armor-test/squad-cache @Armor-test/dept-automation
+/shared/ @Armor-test/squad-ml @Armor-test/team-logging @Armor-test/squad-cloud
+/auth/ @Armor-test/squad-api @Armor-test/team-notifications @Armor-test/squad-product
+/static/ @Armor-test/team-research @Armor-test/grp-integration @Armor-test/grp-api
+/examples/ @Armor-test/squad-frontend @Armor-test/squad-performance
+/test/ @Armor-test/team-frontend @Armor-test/dept-release
+/helpers/ @Armor-test/squad-performance @Armor-test/squad-reporting
+/hooks/ @Armor-test/unit-governance @Armor-test/dept-reliability @Armor-test/unit-test
+/common/ @Armor-test/dept-identity @Armor-test/squad-product @Armor-test/grp-search
+/utils/ @Armor-test/squad-cache @Armor-test/squad-cloud @Armor-test/dept-logging
+/scripts/ @Armor-test/squad-research @Armor-test/unit-devops @Armor-test/dept-test
+/styles/ @Armor-test/team-core @Armor-test/dept-api @Armor-test/grp-ui
+/dist/ @Armor-test/dept-security @Armor-test/dept-reporting @Armor-test/unit-design
+/api/ @Armor-test/squad-search @Armor-test/dept-security
+/assets/ @Armor-test/dept-security @Armor-test/squad-ml
+
+# File type ownership
+*.html @Armor-test/dept-logging @Armor-test/squad-cache @Armor-test/dept-test
+*.tsx @Armor-test/squad-cache @Armor-test/dept-notifications
+*.kt @Armor-test/squad-ux @Armor-test/grp-reporting
+*.cpp @Armor-test/squad-cache @Armor-test/dept-api
+*.lock @Armor-test/grp-ui @Armor-test/unit-devops
+*.java @Armor-test/dept-reporting @Armor-test/team-notifications
+*.py @Armor-test/team-security @Armor-test/team-governance @Armor-test/squad-database
+*.rs @Armor-test/squad-cloud @Armor-test/dept-data
+*.scala @Armor-test/squad-apps @Armor-test/dept-api
+*.sh @Armor-test/grp-payments @Armor-test/dept-billing
+*.sql @Armor-test/dept-billing @Armor-test/grp-integration
+*.yml @Armor-test/squad-apps @Armor-test/team-frontend
+*.toml @Armor-test/team-security @Armor-test/dept-billing
+*.properties @Armor-test/squad-search @Armor-test/dept-identity @Armor-test/dept-api
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
